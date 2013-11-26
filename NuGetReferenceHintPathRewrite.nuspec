@@ -5,6 +5,8 @@
     <version>0.1.1</version>
     <authors>Jason Stangroome</authors>
     <owners>Jason Stangroome</owners>
+	<projectUrl>https://github.com/jstangroome/NuGetReferenceHintPathRewrite</projectUrl>
+	<licenseUrl>https://raw.github.com/jstangroome/NuGetReferenceHintPathRewrite/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Rewrites NuGet reference HintPath values at build-time for projects that exist in multiple solutions with different packages folders.</description>
     <copyright>Copyright 2013</copyright>
