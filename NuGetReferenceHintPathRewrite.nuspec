@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NuGetReferenceHintPathRewrite</id>
+    <version>0.1.1</version>
+    <authors>Jason Stangroome</authors>
+    <owners>Jason Stangroome</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Rewrites NuGet reference HintPath values at build-time for projects that exist in multiple solutions with different packages folders.</description>
+    <copyright>Copyright 2013</copyright>
+  </metadata>
+  <files>
+	<file src="content\NuGetReferenceHintPathRewrite.targets" target="content" />
+	<file src="tools\install.ps1" target="tools" />
+  </files>
+</package>
