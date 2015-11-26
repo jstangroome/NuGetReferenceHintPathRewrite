@@ -14,5 +14,6 @@
   <files>
 	<file src="content\NuGetReferenceHintPathRewrite.targets" target="content" />
 	<file src="tools\install.ps1" target="tools" />
+	<file src="tools\uninstall.ps1" target="tools" />
   </files>
 </package>
