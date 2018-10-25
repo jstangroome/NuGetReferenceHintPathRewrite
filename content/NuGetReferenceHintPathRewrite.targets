@@ -8,7 +8,7 @@
   <Target Name="ReplaceHintPathPackageDirForAssemblyReferences" BeforeTargets="ResolveAssemblyReferences">
 
     <PropertyGroup>
-      <_HintPathPackagePattern>(?i)^(.+\\)?packages\\</_HintPathPackagePattern>
+      <_HintPathPackagePattern>(?i)^(.+[\/\\])?packages[\/\\]</_HintPathPackagePattern>
     </PropertyGroup>
     
     <ItemGroup>
